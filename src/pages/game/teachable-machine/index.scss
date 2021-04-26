@@ -1,0 +1,130 @@
+/* pages/teachable-machine/index.wxss */
+.camera {
+  width: 100vw;
+  height: 100vw;
+  z-index: 5;
+}
+.flex{
+  display: flex;
+}
+.padding-xs{
+  padding: 10px;
+}
+.margin-xs{
+  margin: 10px;
+}
+.radius{
+  border-radius: 5px;
+}
+.text-right{
+  text-align: right;
+}
+.align-center{
+  text-align: center;
+}
+.prediction-view {
+  z-index: 10;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  color: white;
+  background-color: #333300;
+}
+
+.images-scroll-view {
+  width: 100%;
+  white-space: nowrap;
+}
+
+.sample-image {
+  width: 25vw;
+  height: 25vw;
+}
+
+.sample-image{
+  margin: 0 15px; 
+}
+.nav{
+  display: flex;
+  text-align: center;
+  .flex-sub{
+    flex: 1;
+  }
+  .cu-item.cur {
+    border-bottom: 4px solid;
+  }
+  .cu-item {
+    height: 90rpx;
+    display: inline-block;
+    line-height: 90rpx;
+    margin: 0 10rpx;
+    padding: 0 20rpx;
+  }
+}
+.bg-black{
+  background: #000;
+  color: #fff;
+}
+.flex-treble {
+  flex: 3;
+}
+.cation-name{
+  font-weight: bold;
+  color: #000;
+  flex: 1;
+}
+.input-text{
+  color: #000;
+  font-weight: 400;
+  flex: 3;
+  text-align: left;
+}
+
+.show{
+  display: block;
+}
+.bg-yellow{
+  background: linear-gradient(90deg, rgba(252, 225, 26, 1) 0%,rgba(255, 208, 12, 1) 100%);
+}
+.bg-gry{
+  background-color: rgba(246, 248, 249, 1);
+}
+.btn-cj{
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.cu-modal{
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.3);
+  display: flex;
+  z-index: 999;
+  justify-content: center;
+  align-items: center;
+  .cu-dialog{
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    width: 680px;
+    max-width: 100%;
+    background-color: #f8f8f8;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 20px;
+    padding-bottom: 40px;
+  }
+  .content{
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+}
+.cu-item{
+  margin-right: 20px;
+}
+.images-scroll-view{
+  margin-top: 30px;
+}
